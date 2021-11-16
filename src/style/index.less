@@ -1,0 +1,56 @@
+@bg_color: #9bba5a;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 400px;
+    height: 480px;
+    background-color: @bg_color;
+    margin: 100px auto;
+    border: 8px solid #000;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+}
+
+#score_panel{
+    width: 340px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#stage{
+    width: 335px;
+    height: 365px;
+    border: 2px solid black;
+    position: relative;
+
+    #snake>div{
+        border:1px solid @bg_color;
+        background-color:#000;
+        height: 15px;
+        width: 15px;
+        position: absolute;
+    }
+    #food{
+        width: 15px;
+        height: 15px;
+        border:1px solid @bg_color;
+        background-color: red;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-flow: row wrap;
+    }
+    
+}
