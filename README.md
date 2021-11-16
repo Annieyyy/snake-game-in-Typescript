@@ -45,7 +45,7 @@ npm i -D typescript ts-loader wepack-cli webpack html-webpack-plugin clean-webpa
 7. run the project, It will create dist folder with library bundle and index.html.
 
 
-### How to add style in the project (use less in this project)?
+### Add style in the project (use less in this project)
 
 1. install the below items:
 ```
